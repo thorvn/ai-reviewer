@@ -1,0 +1,24 @@
+{
+  "name": "reviewer",
+  "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reviewer": "bin/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724",
+  "dependencies": {
+    "@ai-sdk/anthropic": "^0.0.21",
+    "@ai-sdk/openai": "^0.0.32",
+    "ai": "^3.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
